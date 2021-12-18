@@ -59,7 +59,8 @@
 }
 
 .img-product-detail{
-    width: 40vw;
+    width: 500px;
+    height: 350px;
 }
 
 .paragraph-right{
@@ -69,13 +70,30 @@
 
 /* end section content-product-detail */
 
+.img-preview:hover {
+    transition-duration: .5s;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
 .img-preview-product {
     width: 200px;
+    height: 150px;
     border-radius: 20px;
 }
 
 .tombolBack .btn-back{
     border-radius: 10px;
     text-align: center;
-    background:#000 ;
+    /* background:#000 ; */
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    
+}
+
+.btn-back:hover{
+    transition-duration: .5s;
+    transform: scale(0.9);
+ 
+
 }
