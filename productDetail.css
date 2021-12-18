@@ -1,0 +1,81 @@
+.hero-about{
+    background-image: linear-gradient(to right, rgba(186, 203, 235, 0.8), rgba(62, 83, 153, 0.8)), url("https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=410&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    border-radius: 0 0 40px 40px;
+    
+
+}
+.title-about{
+    /* position: absolute; */
+    text-align: center;
+    margin-top: 200px;
+    font-size: 3rem;
+    /* font-weight: bold; */
+}
+
+.divider{
+    width: 150px;
+    height: 10px;
+}
+
+/* end hero-about */
+
+/* section product detail */
+/* .product-detail{
+    margin-top: -70px;
+    padding: 0 360px;
+    position: absolute;
+    z-index: 99;
+}
+
+.product-detail .container {
+    border-radius: 40px;
+    padding: 40px;
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    text-align: center;
+    
+}
+
+.title-services-content {
+    font-family: 'Merriweather', serif;
+} */
+
+/* end section product detail */
+
+/* section content-product-detail */
+.content-product-detail {
+    /* margin: 250px 0px; */
+
+    
+}
+
+.img-product-detail-left{
+  margin-bottom: 60px;
+
+}
+
+.img-product-detail{
+    width: 40vw;
+}
+
+.paragraph-right{
+    line-height: 15px;
+  
+}
+
+/* end section content-product-detail */
+
+.img-preview-product {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.tombolBack .btn-back{
+    border-radius: 10px;
+    text-align: center;
+    background:#000 ;
+}

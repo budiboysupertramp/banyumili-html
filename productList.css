@@ -1,0 +1,129 @@
+
+.hero-about{
+    background-image: linear-gradient(to right, rgba(186, 203, 235, 0.8), rgba(62, 83, 153, 0.8)), url("https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=410&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    border-radius: 0 0 40px 40px;
+    
+
+}
+.title-about{
+    /* position: absolute; */
+    text-align: center;
+    margin-top: 200px;
+    font-size: 3rem;
+    /* font-weight: bold; */
+}
+
+.divider{
+    width: 150px;
+    height: 10px;
+}
+
+/* end hero-about */
+
+/* section services */
+.services{
+    margin-top: -70px;
+    padding: 0 300px;
+    position: absolute;
+    z-index: 99;
+}
+
+.services .container {
+    border-radius: 40px;
+    padding: 40px;
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    text-align: center;
+    /* width: 80%; */
+}
+
+.title-services-content {
+    font-family: 'Merriweather', serif;
+}
+
+/* end section services */
+
+/* feature-properties */
+.featured-properties{
+    margin-top: 90px;
+    padding: 300px 30px 10px 30px;
+    background-image:  linear-gradient(to right, rgba(11, 75, 194, 0.65), rgba(45, 200, 218, 0.726));
+    border-radius: 60px;
+}
+
+.featured-properties .container{
+    border-radius: 30px;
+    /* background-color: #ffffff; */
+}
+
+.featured-properties-caption{
+    align-items: center;
+    padding: 30px 80px;
+    margin-top: 10px;
+   
+}
+
+.fetured-caption {
+    font-family: 'Merriweather', serif;
+}
+
+.featured-properties h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.divider{
+    width: 150px;
+    height: 10px;
+}
+
+
+.container .card {
+    text-align: center;
+}
+
+.card{
+    border-radius:20px;
+    /* height: 20rem; */
+    border: none;
+    /* background-image:  linear-gradient(to right, rgba(243, 243, 239, 0.918), rgba(126, 34, 218, 0.726)); */
+}
+
+.card-img-top {
+    border-radius: 20px 20px 0px 0px;
+    height: 15rem;
+    
+}
+ 
+.card-text {
+    font-size: 0.8rem;
+}
+
+.btn-feature{
+    /* margin: auto; */
+    float: right;
+}
+/*end feature-properties */
+
+/* img-product */
+
+.img-kategori-product{
+ margin: 90px 70px;
+
+}
+
+.img-product {
+    /* margin-top: 90px; */
+  
+}
+
+.img-product-one {
+ 
+    border-radius: 60px;
+   
+}
+/* end img-product */
