@@ -27,7 +27,7 @@
 /* section services */
 .services{
     margin-top: -70px;
-    padding: 0 300px;
+    padding: 0 350px;
     position: absolute;
     z-index: 99;
 }
@@ -50,14 +50,17 @@
 /* feature-properties */
 .featured-properties{
     margin-top: 90px;
-    padding: 300px 30px 10px 30px;
+    padding: 70px 0;
     background-image:  linear-gradient(to right, rgba(11, 75, 194, 0.65), rgba(45, 200, 218, 0.726));
     border-radius: 60px;
 }
 
 .featured-properties .container{
     border-radius: 30px;
-    /* background-color: #ffffff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .featured-properties-caption{
@@ -87,7 +90,10 @@
 }
 
 .card{
+    
     border-radius:20px;
+    width: 250px;
+    height: 400px;
     /* height: 20rem; */
     border: none;
     /* background-image:  linear-gradient(to right, rgba(243, 243, 239, 0.918), rgba(126, 34, 218, 0.726)); */
@@ -116,9 +122,7 @@
 
 }
 
-.img-product {
-    /* margin-top: 90px; */
-  
+.img-product{
 }
 
 .img-product-one {
