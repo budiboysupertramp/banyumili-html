@@ -48,12 +48,7 @@
     overflow-y: hidden;
 }
 
-.product-card-list .product-card .card-body {
-    /* transform:translateY(100%); */
-    /* transition-duration: .5s; */
-    /* position: absolute; */
-    /* bottom: 0px; */
-}
+
 
 .product-card-list .product-card:hover {
     transform: scale(0.9);
