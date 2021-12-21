@@ -1,25 +1,4 @@
-/* section services */
-/* .contact-list{
-    margin-top: -70px;
-    padding: 0 360px;
-    position: absolute;
-    z-index: 99;
-} */
 
-/* .contact-list .container {
-    border-radius: 40px;
-    padding: 40px;
-    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.25);
-    margin: auto;
-    text-align: center;
-    
-}
-
-.title-services-content {
-    font-family: 'Merriweather', serif;
-} */
-
-/* end section services */
 
 /* bg kontak */
  .bg-kontak{
@@ -29,6 +8,9 @@
     padding: 0 0 700px 0;
 }
 
+
+
+/* end bg kontak */
 
 /* maps */
 .maps {
