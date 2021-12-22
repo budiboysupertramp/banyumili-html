@@ -1,0 +1,71 @@
+@media only screen and (max-width:767.98px) {
+
+    /* Hero */
+    .hero-left{
+        padding: 150px 50px 90px 50px;
+    }
+
+    .hero-right{
+        height: 500px;
+        border-radius: 30px;
+        background-position: 0px -120px;
+    }
+
+    .hero-left, .hero-right {
+        width: 100%;
+    }
+
+    /* OUR SERVICES */
+    .services .services-content {
+        margin: -200px auto 0 auto;
+        width: 90%;
+    }
+
+    /* about */
+    section.bg-about{
+        padding: 0 0 700px 0;
+    }
+    /* endabout */
+
+    /* kontak */
+    .header-card  .header-card-content {
+        margin: -200px auto 0 auto;
+        width: 90%;
+        
+    }
+
+   /* end kontak */
+    
+   .carousel-inner .client-background-about{
+    height: 500px;
+    width: 90%;
+   }
+
+   .carousel-item .card-client{
+    margin: -410px auto 0 auto;
+   }
+
+    /* .bg-contact-section .img-kontak img {
+        width: 100%;
+        padding: 0 20px;
+    } */
+    /* end kontak */
+    
+}
+
+@media only screen and (min-width:767.98px) and (max-width:1024px) {
+   /* about */
+    section.bg-about{
+        padding: 0 0 600px 0;
+    }
+
+    /* end */
+}
+@media only screen and (min-width:1024px) {
+   /* about */
+    section.bg-about{
+        padding: 0 0 800px 0;
+    }
+
+    /* end */
+}
