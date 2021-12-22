@@ -1,0 +1,78 @@
+
+.hero-about{
+    background-image: linear-gradient(to right, rgba(186, 203, 235, 0.8), rgba(62, 83, 153, 0.8)), url("https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=410&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    border-radius: 0 0 40px 40px;
+    
+
+}
+
+/* end hero-about */
+
+/* SECTION feature-properties */
+.featured-properties{
+    margin-top: 90px;
+    background-image:  linear-gradient(to right, rgba(11, 75, 194, 0.65), rgba(45, 200, 218, 0.726));
+    border-radius: 60px;
+}
+
+
+/* section services */
+
+.services .services-content {
+    border-radius: 40px;
+    padding: 60px 30px;
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.25);
+    margin: -140px auto 0 auto;
+    text-align: center;
+    width: 60%;
+    background-color: #ffffff;
+}
+
+.services .services-content .title-services-name {
+    font-size: 42px;
+}
+
+.services .services-content .title-services-content {
+    font-family: 'Merriweather', serif;
+}
+
+.product-card-list .product-card {
+    transition-duration: .5s;
+    cursor: pointer;
+    border-radius:20px;
+    border: none;
+    overflow-y: hidden;
+}
+
+
+
+.product-card-list .product-card:hover {
+    transform: scale(0.9);
+}
+
+.product-card-list .product-card:hover .card-body {
+    /* transform:translateY(0); */
+    background-color: #ffffff;
+}
+
+.product-card-list .product-card .card-img-top {
+    border-radius: 20px 20px;
+    max-height: 300px;
+    object-fit: cover;
+    
+}
+
+.product-card-list .product-card:hover .card-img-top {
+    filter: blur(2px)
+    
+}
+ 
+.product-card-list .product-card .card-body .card-text {
+    font-size: 0.8rem;
+    text-overflow: ellipsis;
+}
+
