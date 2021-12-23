@@ -9,6 +9,7 @@
         height: 500px;
         border-radius: 30px;
         background-position: 0px -120px;
+       
     }
 
     .hero-left, .hero-right {
@@ -27,11 +28,13 @@
     }
     /* endabout */
 
+
+
     /* kontak */
     .header-card  .header-card-content {
-        margin: -200px auto 0 auto;
+        margin: -150px auto 0 auto;
         width: 90%;
-        
+  
     }
 
    /* end kontak */
@@ -48,9 +51,23 @@
     /* end kontak */
 
     /* gallery */
-    .gallery-item {
-        width: 100%;
+    
+    .gallery{
+        margin: -120px 0 0 0;
     }
+
+    .title-header{
+        padding: 190px 0 0 0 ;
+    }
+    
+    .navbar-gallery .nav-item{
+        font-size: 1rem;
+        margin: 0 10px;
+        
+    }
+    
+
+
     /* gallery */
     
 }
