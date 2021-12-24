@@ -28,6 +28,7 @@
 /* SECTION feature-properties */
 .featured-properties{
     margin-top: 90px;
+    padding-bottom: 40px;
     background-image:  linear-gradient(to right, rgba(11, 75, 194, 0.65), rgba(45, 200, 218, 0.726));
     border-radius: 60px;
 }
@@ -57,13 +58,13 @@
 
 
 .featured-properties-counter {
-    margin: 150px auto;
+    margin: 100px auto;
     border-radius: 30px;
 }
 
 .featured-properties-counter .featured-properties-caption {
     align-items: center;
-    padding: 60px 30px;
+    padding: 40px 20px;
    
 }
 
@@ -108,18 +109,17 @@
 
 .product-card-list .product-card .card-img-top {
     border-radius: 20px 20px;
-    object-fit: cover;
-    
+    object-fit: cover;    
 }
 
 .product-card-list .product-card:hover .card-img-top {
-    filter: blur(2px)
-    
+    filter: blur(2px);
 }
  
 .product-card-list .product-card .card-body .card-text {
     font-size: 0.8rem;
     text-overflow: ellipsis;
+
 }
 
 /*end feature-properties */
@@ -140,6 +140,7 @@
     padding: 30px;
     border-radius: 40px;
     transition-duration: .5s;
+    height: 100%;
 }
 
 .property .card-property:hover {
@@ -152,9 +153,7 @@
 }
 
 /* section motto */ 
-.motto {
-    /* padding: 0 250px; */
-}
+
 
 .motto .motto-caption {
     text-align: center;
@@ -163,7 +162,7 @@
 
 /* section client */
 .client-testimonials {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .client-testimonials .client-background{
@@ -175,7 +174,7 @@
 }
 
 .testimonial-list {
-    margin-top: -390px;
+    margin-top: -420px;
 }
 
 .testimonial-list .card-client {
@@ -197,6 +196,15 @@
     margin-top: 20px;
 }
 
+.footer .container  .row {
+    margin-bottom: -40px;
+}
+.img-footer {
+    padding-right: 50px;
+}
+.menu-footer {
+    padding-left: 50px;
+}
 /* end section client */
 
 

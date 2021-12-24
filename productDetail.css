@@ -72,26 +72,22 @@
 }
 
 /* end section content-product-detail */
-/* 
+
 .img-preview:hover {
     transition-duration: .5s;
     transform: scale(0.9);
     cursor: pointer;
-<<<<<<< HEAD
-} */
-/* 
+} 
+
 
     
-}
 
->>>>>>> 807331bbcec9a3508ae0c02e5ce7c89d48bfe340
 .img-preview-product {
     width: 100%;
     height: 150px;
-<<<<<<< HEAD
     border-radius: 20px;
 	margin-top: 10px;
-} */
+}
 
   
     /* border-radius: 20px; */
